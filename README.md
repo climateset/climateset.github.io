@@ -1,10 +1,10 @@
 # ClimateSet
-ClimateSet - A Dataset of Climate Models for Machine Learners
+ClimateSet - A Dataset of Climate Models for Machine Learners.
 
-## At A Glance
+**This website is currently under construction. **
 
-## Data Availability
+It will soon contain further information about the data and code access for ClimateSet.
 
-## Code
+Thank you for your patience!
 
-## User Guides
+
