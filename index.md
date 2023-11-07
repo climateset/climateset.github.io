@@ -4,7 +4,7 @@ layout: default
 
 <h1>This website is currently under development!</h1>
 <div>
-    <a>The links to the code and the dataset will be published at the start of December 2023.</a>
+    The links to the code and the dataset will be published at the start of December 2023.<br />
 </div>
 
 <div style="display: flex; align-items: flex-start;">
