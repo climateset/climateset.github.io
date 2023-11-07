@@ -4,8 +4,10 @@ layout: default
 
 <h1>This website is currently under development!</h1>
 <div>
-    The links to the code and the dataset will be published at the start of December 2023.<br />
+    <b>The links to the code and the dataset will be published at the start of December 2023.</b>
 </div>
+<br>
+
 
 <div style="display: flex; align-items: flex-start;">
   <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" />
