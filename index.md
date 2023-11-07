@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+# This website is currently under development!
+The links to the code and the dataset will be published at the start of December 2023.
 
 <div style="display: flex; align-items: flex-start;">
   <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" />
