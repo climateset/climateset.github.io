@@ -2,3 +2,105 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+// .page-header {
+//     background: white;
+//     padding-bottom: 0;
+// }
+
+// .project-name {
+//     color: #159957
+// }
+
+// .btn {
+//     background-color: #159957;
+//     color: white;
+// }
+
+.navbar {
+    // background-color: #159957;
+    // background-color: #155799;
+    /* transparent background color */
+    // background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar-header .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar-links a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar-links a:hover {
+    // background-color: #151799;
+    background-color: #15747c;
+    // background-color: #159957;
+}
+
+// .page-header {
+//     display: flex;
+//     justify-content: center; /* Horizontally centers the content */
+//     align-items: center; /* Vertically centers the content */
+// }
+
+// .header-left, .header-right {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .header-left {
+//     margin-right:100px; /* Space between the icon and the right section */
+// }
+
+// .header-icon {
+//     max-height: 180px; /* Increased size of the icon, adjust as needed */
+//     width: auto; /* Keep aspect ratio */
+// }
+
+// .header-right .header-top {
+//     margin-bottom: 20px; /* Space between title and buttons */
+// }
+
+.page-header {
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    flex-direction: column; /* Stacks items vertically */
+}
+
+.header-top {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 20px; /* Space between title and buttons */
+}
+
+.header-icon {
+    max-height: 100px; /* Adjust as needed */
+    margin-right: 10px; /* Space between the icon and the title */
+}
+
+.project-name {
+    margin-left: 10px; /* Adjust spacing as needed */
+    vertical-align: middle; /* Align text vertically */
+}
+
+/* Rest of your CSS for buttons, project name, etc. */

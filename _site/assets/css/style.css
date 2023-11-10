@@ -1000,4 +1000,61 @@ a:hover {
   color: #819198;
 }
 
+.navbar {
+  /* transparent background color */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.navbar-links a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar-links a:hover {
+  background-color: #15747c;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+  flex-direction: column; /* Stacks items vertically */
+}
+
+.header-top {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 20px; /* Space between title and buttons */
+}
+
+.header-icon {
+  max-height: 100px; /* Adjust as needed */
+  margin-right: 10px; /* Space between the icon and the title */
+}
+
+.project-name {
+  margin-left: 10px; /* Adjust spacing as needed */
+  vertical-align: middle; /* Align text vertically */
+}
+
+/* Rest of your CSS for buttons, project name, etc. */
+
 /*# sourceMappingURL=style.css.map */

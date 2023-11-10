@@ -10,7 +10,7 @@ layout: default
 
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" />
+  <!-- <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" /> -->
   <div>
     Climate models are critical tools for analyzing climate change and projecting its 
     future impact. The machine learning (ML) community has
