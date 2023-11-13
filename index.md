@@ -9,9 +9,24 @@ layout: default
 <br>
 
 
-<div style="display: flex; align-items: flex-start;">
+<!-- <div style="display: flex; align-items: flex-start;">
   <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" />
   <div>
+    Climate models are critical tools for analyzing climate change and projecting its 
+    future impact. The machine learning (ML) community has
+    taken an increased interest in supporting climate scientists’ efforts on various tasks
+    such as climate model emulation, downscaling, and prediction tasks. However, 
+    traditional datasets based on single climate models are limiting. We thus present 
+    ClimateSet — a comprehensive collection of inputs and outputs from 36 climate models 
+    sourced from the Input4MIPs and CMIP6 archives, designed for large-scale ML applications.
+  </div>
+</div> -->
+
+<div style="display: flex; align-items: stretch;">
+  <div class="icon-wrapper">
+    <img src="climateset_icon.png" alt="ClimateSet Icon" class="climate-icon" />
+  </div>
+  <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
     Climate models are critical tools for analyzing climate change and projecting its 
     future impact. The machine learning (ML) community has
     taken an increased interest in supporting climate scientists’ efforts on various tasks

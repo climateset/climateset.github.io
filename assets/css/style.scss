@@ -2,3 +2,74 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+.navbar {
+    // background-color: #159957;
+    // background-color: #155799;
+    /* transparent background color */
+    // background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar-header .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar-links a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar-links a:hover {
+    // background-color: #151799;
+    background-color: #15747c;
+    // background-color: #159957;
+}
+
+.icon-wrapper {
+    flex: 0 0 30%; /* This ensures the wrapper takes up 30% of the flex container */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.climate-icon {
+    width: 100%; /* The icon takes up the full width of the wrapper */
+    height: auto;
+    object-fit: contain;
+}
+
+div[style*="display: flex; align-items: stretch;"] > div {
+    flex-grow: 1; /* This ensures the text div takes the remaining space */
+}
+
+@media (max-width: 600px) {
+    div[style*="display: flex; align-items: stretch;"] {
+        flex-direction: column;
+    }
+
+    .icon-wrapper {
+        width: 100%; /* Full width on small screens */
+        margin-bottom: 20px;
+    }
+
+    .climate-icon {
+        margin-right: 0;
+    }
+}
