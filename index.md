@@ -48,7 +48,7 @@ layout: default
 *The 3D Earth System Model visualization was created by Boris Sakschewski, used with permission.*
 
 # Related Work
-![ClimateSet Related Work](./climate_set_related_work.pdf)
+![ClimateSet Related Work](./AIWeatherClimateFigure.pdf)
 Depending on your specific task, there might be other datasets that are more suitable for you. We are providing a list of different climate model datasets and tools here that might be helpful to you. Feel free to reach out to us if you think there is a dataset or ML model that is missing in our figure. (We are only including datasets and ML models that operate on a global scale, using reanlysis or climate model data).
 
 ## Tools
