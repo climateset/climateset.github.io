@@ -4,7 +4,7 @@ layout: default
 
 <h1>This website is currently under development!</h1>
 <div>
-    <b>The links to the code and the dataset will be published at the start of December 2023.</b>
+    <b>The links to the code and the dataset will be published in December 2023. Feel free to reach out to julia[dot]kaltenborn[at]mail[dot]mcgill[dot]ca to get prior access to the data.</b>
 </div>
 <br>
 
