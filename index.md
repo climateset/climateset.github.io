@@ -47,7 +47,22 @@ layout: default
 
 *The 3D Earth System Model visualization was created by Boris Sakschewski, used with permission.*
 
+# Related Work
+![ClimateSet Related Work](./climate_set_related_work.pdf)
+Depending on your specific task, there might be other datasets that are more suitable for you. We are providing a list of different climate model datasets and tools here that might be helpful to you. Feel free to reach out to us if you think there is a dataset or ML model that is missing in our figure. (We are only including datasets and ML models that operate on a global scale, using reanlysis or climate model data).
+
+## Tools
+- [xMIP](https://github.com/jbusecke/xMIP): Preprocessing tool for CMIP6 data; great start to engineer your own pipelines
+  
+## Datasets
+- [ClimateLearn](https://arxiv.org/abs/2307.01909) Accessible, large-scale weather data + 2 climate models, PyTorch package; especially suitable when looking for dataset + ML models
+- [ClimSim](https://arxiv.org/abs/2306.08754) High-resolution, large-scale, accessible ML-ready dataset for 1 climate model; especially suitable for hybrid physics-ML emulation tasks
+- [ClimateBench](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021MS002954) Accessible, ML-ready climate dataset for 1 climate model (NorESM)
+- [WeatherBench](https://arxiv.org/abs/2002.00469) Large-scale, accessible, ML-ready weather dataset
+
+
 # Ethics Statement
 
-# Authors
+# News
+
 
