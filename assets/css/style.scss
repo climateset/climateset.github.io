@@ -5,13 +5,17 @@
 
 .navbar {
     // background-color: #159957;
+    color: $header-heading-color;
+    text-align: center;
+    background-color: $header-bg-color;
+    background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
     // background-color: #155799;
     /* transparent background color */
-    // background-color: rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    position: fixed;
+    // position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .navbar-container {
