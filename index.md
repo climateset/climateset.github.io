@@ -45,11 +45,13 @@ layout: default
 4. **Potential use cases for ClimateSet** range from climate projection to climate data downscaling, extreme weather prediction in different warming scenarios, to large ML climate models.
 5. **The main tools** provided through ClimateSet are the downloader and the preprocesser to make the climate model data consistent with each other.
 
-*The 3D Earth System Model visualization was created by Boris Sakschewski, used with permission.*
+*The [3D Earth System Model visualization](https://www.pik-potsdam.de/en/news/latest-news/fast-comprehensive-potsdam-earth-model-poem-ready-for-use) was created by Boris Sakschewski, used with permission.*
 
 # Related Work
 ![ClimateSet Related Work](./AIWeatherClimateFigure.png)
 Depending on your specific task, there might be other datasets that are more suitable for you. We are providing a list of different climate model datasets and tools here that might be helpful to you. Feel free to reach out to us if you think there is a dataset or ML model that is missing in our figure. (We are only including datasets and ML models that operate on a global scale, using reanlysis or climate model data).
+
+*The figure was inspired by [Mukkavilli et al. (2023)](https://arxiv.org/abs/2309.10808).*
 
 ## Tools
 - [xMIP](https://github.com/jbusecke/xMIP): Preprocessing tool for CMIP6 data; great start to engineer your own pipelines
@@ -61,8 +63,17 @@ Depending on your specific task, there might be other datasets that are more sui
 - [WeatherBench](https://arxiv.org/abs/2002.00469) Large-scale, accessible, ML-ready weather dataset
 
 
-# Ethics Statement
-
 # News
+- 12th Dec 2023: [Poster Session Neurips](https://nips.cc/virtual/2023/poster/73703)
+- 08th Dec 2023: [Mila Interview](https://mila.quebec/en/ai-climate/)
 
+  
+# Ethics Statement
+ClimateSet can be used to train large-scale climate model emulators, however, it can also be used for many other ML tasks with currently unknown downstream effects. This means, that there is a considerable amount of uncertainty regarding the potential misuse and negative downstream effects of ClimateSet.
+
+The authors intend that the data is only used for projects that can clearly scope the potential social and environmental impacts and do not harm the environment or humans in direct or indirect ways. For example, you may not use the dataset to train an ML model that identifies which geographical locations are particularly robust to climate change and can be used for resource extraction (mining, oil, gas, etc.). This would have a negative impact on our environment and thus violates our intended use of ClimateSet. Another example would be, that you are not allowed to use the dataset in a financial context, such as estimating the projected financial damage due to climate change for different local regions. This could be used to increase the financial burden on marginalized communities that are usually living in regions that are at greater risk of climate change. This would have a negative impact on the social level and humans in general.
+
+ClimateSet has potential hazards regarding the data it provides, i.e. there are potential mistakes both from our side and the climate modelling teams. Our team maintains the data as well as possible, i.e. we address data mistakes when we find them when brought to our attention. We are updating our dataset when it comes to our attention that our underlying datasets have been updated to address mistakes / serious issues. We have been collaborating interdisciplinary with climate scientists to minimize the risk of introducing mistakes due to a lack of domain knowledge.
+
+We encourage users of ClimateSet to include climate scientists in their teams to ensure that they use the data correctly. We will update our website later on with more detailed descriptions of how to use the dataset correctly and outlining potential pitfalls for ML researchers working on climate model data. Right now, we do not provide such a guideline yet. Thus, please reach out to us if you have questions or you are uncertain about the correct usage of ClimateSet. In any case, we recommend including researchers with relevant domain knowledge to ensure the correct use of the data and to make sure your project is addressing challenges that are actually relevant to the domain.
 
