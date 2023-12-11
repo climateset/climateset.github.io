@@ -47,9 +47,12 @@ layout: default
 
 *The [3D Earth System Model visualization](https://www.pik-potsdam.de/en/news/latest-news/fast-comprehensive-potsdam-earth-model-poem-ready-for-use) was created by Boris Sakschewski, used with permission.*
 
+# Why Climate Model Data?
+Most recent works are building upon ERA5 data, i.e. reanalysis data or "past observational data" that was enhanced by numerical modelling. However, we need to train Large ML Climate Models, on *climate model* data, such as CMIP6. Why? Because of Climate Change! Climate change means that our data distributions are shifting over the next decades. If we want to be able to address any questions related to our future climate (which is important for climate change adaptation!), we need to train our models on climate model data. ClimateSet is providing a range of climate scenarios and climate models, so we can capture the uncertainty about our future climate, as well as the uncertainty of climate models themselves.
+
 # Related Work
 ![ClimateSet Related Work](./AIWeatherClimateFigure.png)
-Depending on your specific task, there might be other datasets that are more suitable for you. We are providing a list of different climate model datasets and tools here that might be helpful to you. Feel free to reach out to us if you think there is a dataset or ML model that is missing in our figure. (We are only including datasets and ML models that operate on a global scale, using reanlysis or climate model data).
+Depending on your specific task, there might be other datasets that are more suitable for you. We are providing a list of different climate model datasets and tools here that might be helpful to you. Feel free to reach out to us if you think there is a dataset or ML model that is missing in our figure. (We are only including datasets and ML models that operate on a global scale, using reanalysis or climate model data).
 
 *The figure was inspired by [Mukkavilli et al. (2023)](https://arxiv.org/abs/2309.10808).*
 
