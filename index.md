@@ -80,3 +80,8 @@ ClimateSet has potential hazards regarding the data it provides, i.e. there are 
 
 We encourage users of ClimateSet to include climate scientists in their teams to ensure that they use the data correctly. We will update our website later on with more detailed descriptions of how to use the dataset correctly and outlining potential pitfalls for ML researchers working on climate model data. Right now, we do not provide such a guideline yet. Thus, please reach out to us if you have questions or you are uncertain about the correct usage of ClimateSet. In any case, we recommend including researchers with relevant domain knowledge to ensure the correct use of the data and to make sure your project is addressing challenges that are actually relevant to the domain.
 
+# Leaderbord
+For a current leaderboard, please refer to our paper.
+For future experiments, you will find a leaderboard here. 
+If you have made your own experiments with ClimateSet and wish to share your results, please don't hesitate to contact us and we will publish your results on our websites accordingly for anyone to find.
+
