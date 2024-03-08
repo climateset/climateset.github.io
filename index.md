@@ -3,6 +3,7 @@ layout: default
 ---
 
 <h1>A Large-Scale Climate Model Dataset for Machine Learning</h1>
+<p><strong>Climate Data. Large-Scale. Consistent. ML-accessible.</strong></p>
 
 <!-- <div style="display: flex; align-items: stretch;">
     <div class="icon-wrapper">
@@ -24,10 +25,13 @@ layout: default
     <img src="climateset_icon.png" alt="ClimateSet Icon" class="climate-icon" />
   </div>
   <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
-    <li><strong>Climate data.</strong></li>
-    <li><strong>Large-scale.</strong></li>
-    <li><strong>Consistent.</strong></li>
-    <li><strong>ML-accessible.</strong></li>
+    Climate models are critical tools for analyzing climate change and projecting its 
+    future impact. The machine learning (ML) community has
+    taken an increased interest in supporting climate scientists’ efforts on various tasks
+    such as climate model emulation, downscaling, and prediction tasks. However, 
+    traditional datasets based on single climate models are limiting. We thus present 
+    ClimateSet — a comprehensive collection of inputs and outputs from 36 climate models 
+    sourced from the Input4MIPs and CMIP6 archives, designed for large-scale ML applications.
   </div>
 </div>
 
