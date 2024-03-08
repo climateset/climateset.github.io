@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<h1>This website is currently under development!</h1>
-<div>
-    <b>The links to the code and the dataset will be published in December 2023. Feel free to reach out to julia[dot]kaltenborn[at]mail[dot]mcgill[dot]ca to get prior access to the data.</b>
-</div>
-<br>
+<h1>A Large-Scale Climate Model Dataset for Machine Learning</h1>
 
-
-<!-- <div style="display: flex; align-items: flex-start;">
-  <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" />
-  <div>
+<!-- <div style="display: flex; align-items: stretch;">
+    <div class="icon-wrapper">
+      <img src="climateset_icon.png" alt="ClimateSet Icon" style="height: 200px; margin-right: 20px;" />
+    </div>
+  <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
     Climate models are critical tools for analyzing climate change and projecting its 
     future impact. The machine learning (ML) community has
     taken an increased interest in supporting climate scientists’ efforts on various tasks
@@ -27,17 +24,18 @@ layout: default
     <img src="climateset_icon.png" alt="ClimateSet Icon" class="climate-icon" />
   </div>
   <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
-    Climate models are critical tools for analyzing climate change and projecting its 
-    future impact. The machine learning (ML) community has
-    taken an increased interest in supporting climate scientists’ efforts on various tasks
-    such as climate model emulation, downscaling, and prediction tasks. However, 
-    traditional datasets based on single climate models are limiting. We thus present 
-    ClimateSet — a comprehensive collection of inputs and outputs from 36 climate models 
-    sourced from the Input4MIPs and CMIP6 archives, designed for large-scale ML applications.
+    <li><strong>Climate data.</strong></li>
+    <li><strong>Large-scale.</strong></li>
+    <li><strong>Consistent.</strong></li>
+    <li><strong>ML-accessible.</strong></li>
   </div>
 </div>
 
 # Overview
+**Contact**: julia.kaltenborn[at]mail.mcgill.ca
+
+**Status**: Code and core dataset available. Extension pipeline and docs under further development.
+
 ![ClimateSet Overview](./climate_set_overview.png)
 1. **ClimateSet builds on the Input4MIPs and CMIP6 datasets** made available through multiple climate modeling teams on the Earth System Grid Federation (ESGF) servers.
 2. **ClimateSet consists of a preprocessed, ML-ready core dataset** that includes inputs and outputs for 5 SSP scenarios, 4 forcing agents, 2 climatic variables (temperature and precipitation), for a set of 36 climate models. It is currently made publicly available through the Digital Research Alliance of Canada.
@@ -69,7 +67,8 @@ Depending on your specific task, there might be other datasets that are more sui
 # News
 - 12th Dec 2023: [Poster Session Neurips](https://nips.cc/virtual/2023/poster/73703)
 - 08th Dec 2023: [Mila Interview](https://mila.quebec/en/ai-climate/)
-
+- 21st Feb 2024: ClimateSet is now available on huggingface
+- 01st Mar 2024: Invited talk at kungfu.ai
   
 # Ethics Statement
 ClimateSet can be used to train large-scale climate model emulators, however, it can also be used for many other ML tasks with currently unknown downstream effects. This means, that there is a considerable amount of uncertainty regarding the potential misuse and negative downstream effects of ClimateSet.
