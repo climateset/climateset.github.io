@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<h1>A Large-Scale Climate Model Dataset for Machine Learning</h1>
-<p><strong>Climate Data. Large-Scale. Consistent. ML-accessible.</strong></p>
+<!--<h1>A Large-Scale Climate Model Dataset for Machine Learning</h1>
+<p><strong>Climate Data. Large-Scale. Consistent. ML-accessible.</strong></p> -->
+# **Climate Data. Large-Scale. Consistent. ML-accessible.**
 
 <!-- <div style="display: flex; align-items: stretch;">
     <div class="icon-wrapper">
